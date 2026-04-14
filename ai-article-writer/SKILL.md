@@ -22,12 +22,21 @@ metadata:
 
 **方式 A：用户指定主题** — 询问技术领域、目标读者、内容调性、实操要求（见 [references/topic-selection.md](references/topic-selection.md)）
 
-**方式 B：自动选择热点** — 从 Hacker News、arXiv、GitHub Trending、Product Hunt、Twitter、知乎等渠道筛选热点。
+**方式 B：自动选择热点** — 按优先级筛选：
+- **海外渠道（优先）**：Hacker News、arXiv、GitHub Trending、Product Hunt、Twitter/X
+- **国内渠道（补充）**：知乎、微信公众号、掘金、V2EX
 
-**选题优先级**（基于真实阅读量数据）：
-- **优先写**：AI 框架对比、新框架基础介绍、快速上手教程
-- **减少写**：配置类详解、代码实现细节、深度技术原理
+**选题优先级**（基于互联网热度排序）：
+- **⭐⭐⭐⭐⭐ 热门事件/重磅发布**：Hacker News 首页、Twitter 热议
+- **⭐⭐⭐⭐⭐ 框架对比**：GitHub Stars、社区讨论热度
+- **⭐⭐⭐⭐ 新框架/工具介绍**：GitHub Trending、Product Hunt
+- **⭐⭐⭐⭐ 快速上手教程**：搜索需求、社区问答热度
+- **⭐⭐⭐ 架构概览**：技术博客引用
+- **⭐⭐ 原理解析**：arXiv 论文引用
+- **⭐ 配置细节**：文档搜索
 - **黄金比例**：70% 浅显易懂 + 30% 技术深度
+
+**选题范围**：大语言模型 / AI Agent / RAG 系统 / 多模态 AI / Agentic RL / 强化学习 / 深度学习 / 模型训练与微调 / AI 评测 / 周边框架（PyTorch、TensorFlow、Ray、DeepSpeed、vLLM 等）
 
 详见 [references/topic-selection.md](references/topic-selection.md)。
 
